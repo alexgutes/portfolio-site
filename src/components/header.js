@@ -1,15 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
-
-const Avi = styled.img`
-  border-radius: 50%;
-`
+import './styles/Header.css'
 
 export default function Header() {
   return (
-    <div>
-      <Avi src="https://via.placeholder.com/32" />
-      <span>Alex Gutierrez</span>
-    </div>
+    <ul className="flex-list">
+      <li>Alex Gutierrez</li>
+      <li className="flex-right">Full Stack Web Developer</li>
+    </ul>
   )
 }
