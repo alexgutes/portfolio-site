@@ -1,5 +1,9 @@
-.img-container {
-  text-align: center;
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .image {
@@ -8,18 +12,36 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 50%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
 }
 
 .image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(86 219 211);
 }
 
 .text-container {
+  display: flex;
+  align-items: center;
+  /* more style: */
   background-color: white;
   padding: 30px;
+  padding-bottom: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  max-width: 500px;
+  font-size: 1.1em;
+
+  font-weight: bolder;
+  border: 2px solid transparent;
 }
 .text-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(86 219 211);
+}
+
+#profile {
+  max-width: 200px;
 }
