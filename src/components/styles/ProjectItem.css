@@ -6,6 +6,7 @@
   margin: 10px;
   width: 100%;
   border: 2px solid transparent;
+  font-weight: bolder;
 }
 
 .project-card:hover {

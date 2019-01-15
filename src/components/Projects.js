@@ -10,7 +10,7 @@ import truckdSS from '../images/truckd-screenshot.png'
 export default function Projects() {
   return (
     <div classnName="project-outer-container">
-      <h5 className="sub-heading section-heading">Projects</h5>
+      <h3 className="sub-heading section-heading">Projects</h3>
       <div className="project-flex-container">
         <ProjectItem
           title="Emojiful"

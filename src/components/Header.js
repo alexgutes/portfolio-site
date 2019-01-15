@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <ul className="flex-list">
       <li>
-        <h3>Alex Gutierrez</h3>
+        <h1>Alex Gutierrez</h1>
       </li>
       <li className="flex-right">
-        <h3>Full Stack Web Developer</h3>
+        <h1>Full Stack Web Developer</h1>
       </li>
     </ul>
   )

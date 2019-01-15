@@ -5,8 +5,8 @@ export default function Skills() {
   return (
     <div>
       <div>
-        <h5 className="sub-heading section-heading">Skills</h5>
-        <i className="sub-heading">Front End</i>
+        <h3 className="sub-heading section-heading">Skills</h3>
+        <h5 className="sub-heading">Front End</h5>
         <ul className="flex-list-skills">
           <li>JavaScript</li>
           <li>React</li>
@@ -21,7 +21,7 @@ export default function Skills() {
         </ul>
       </div>
       <div>
-        <i className="sub-heading">Back End</i>
+        <h5 className="sub-heading">Back End</h5>
         <ul className="flex-list-skills">
           <li>Node</li>
           <li>Express</li>
