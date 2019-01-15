@@ -9,3 +9,16 @@
 .flex-right {
   margin-left: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .flex-list {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .flex-right {
+    margin-left: 0;
+  }
+}
