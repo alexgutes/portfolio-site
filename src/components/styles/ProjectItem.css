@@ -4,7 +4,7 @@
   transition: 0.3s;
   padding: 30px;
   margin: 10px;
-  width: 200px;
+  width: 100%;
   border: 2px solid transparent;
 }
 
@@ -13,15 +13,6 @@
   border: 2px solid rgb(86 219 211);
 }
 
-.emoji {
-  font-size: 100px;
-  line-height: 100px;
-  margin-left: 15px;
-}
-
-.project-img {
-  max-width: 100px;
-}
 .flip {
   text-align: right;
 }
@@ -32,13 +23,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.flex-row {
-  display: flex;
-}
-
-.img-flex-right {
-  margin-left: 15px;
-}
 
 .project-outer-container {
   margin-bottom: 50px;
@@ -47,4 +31,27 @@
 .text-card > a {
   text-decoration: none;
   font-weight: bolder;
+}
+
+.project-img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: auto;
+}
+
+.emoji {
+  margin-left: auto;
+}
+
+.screenshot {
+  max-width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.link-container {
+  text-align: right;
 }

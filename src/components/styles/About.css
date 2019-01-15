@@ -23,8 +23,6 @@
 }
 
 .text-container {
-  display: flex;
-  align-items: center;
   /* more style: */
   background-color: white;
   padding: 30px;

@@ -13,6 +13,9 @@ export default function About() {
           design. I'm familiar with working in a team environment and I'm able
           to learn and adapt to new technologies quickly.
         </p>
+        <p>
+          Outside of development, I enjoy cooking, watching sports and listening to music. 
+        </p>
       </div>
     </div>
   )
