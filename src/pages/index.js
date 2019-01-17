@@ -8,6 +8,8 @@ import Contact from '../components/Contact'
 
 import '../Skeleton.css'
 
+import favicon from '../images/favicon.svg'
+
 const IndexPage = () => (
   <>
     <Header />
