@@ -5,27 +5,37 @@ import './styles/Contact.css'
 
 export default function Contact() {
   return (
-    <ul className="flex-list-contact">
-      <li>
-        <a href="mailto:alexgutes@gmail.com">
-          <GoMail id="gomail" size="4em" />
+    <div className="flex-list-contact">
+      <div className="icon-label-container">
+        <a className="link-icon-container" href="mailto:alexgutes@gmail.com">
+          <GoMail id="gomail" className="icon" size="4em" />
         </a>
-      </li>
-      <li>
-        <a href="https://docs.google.com/document/d/1qV5bPnyC8nCZ7U2OPxoV_JwtW_KU35zzDcsMmRsvDj8/edit?usp=sharing">
-          <GoFile id="gofile" size="4em" />
+        <label>Email</label>
+      </div>
+      <div className="icon-label-container">
+        <a
+          className="link-icon-container"
+          href="https://docs.google.com/document/d/1qV5bPnyC8nCZ7U2OPxoV_JwtW_KU35zzDcsMmRsvDj8/edit?usp=sharing"
+        >
+          <GoFile id="gofile" className="icon" size="4em" />
         </a>
-      </li>
-      <li>
-        <a href="https://github.com/alexgutes">
-          <GoMarkGithub id="gogithub" size="4em" />
+        <label>Resume</label>
+      </div>
+      <div className="icon-label-container">
+        <a className="link-icon-container" href="https://github.com/alexgutes">
+          <GoMarkGithub id="gogithub" className="icon" size="4em" />
         </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/alexgutes/">
-          <TiSocialLinkedin id="linkedin" size="4em" />
+        <label>Github</label>
+      </div>
+      <div className="icon-label-container">
+        <a
+          className="link-icon-container"
+          href="https://www.linkedin.com/in/alexgutes/"
+        >
+          <TiSocialLinkedin id="linkedin" className="icon" size="4em" />
         </a>
-      </li>
-    </ul>
+        <label>Linkedin</label>
+      </div>
+    </div>
   )
 }

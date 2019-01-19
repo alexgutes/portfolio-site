@@ -28,7 +28,12 @@ export default function ProjectItem(props) {
         <ul className="flex-list-skills">{skillsList}</ul>
       </div>
       <div className="link-container">
-        <a href={props.liveLink}>Live</a> | <a href={props.codeLink}>Code</a>
+        <a href={props.liveLink}>
+          <button className="live-button button-primary">Live</button>
+        </a>
+        <a href={props.codeLink}>
+          <button>Code</button>
+        </a>
       </div>
     </div>
   )
