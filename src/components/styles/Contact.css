@@ -49,3 +49,7 @@
   flex-direction: column;
   text-align: center;
 }
+
+.icon-label-container:hover label {
+  color: rgb(86 219 211);
+}
