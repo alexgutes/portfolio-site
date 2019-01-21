@@ -319,8 +319,8 @@ input[type='submit'].button-primary,
 input[type='reset'].button-primary,
 input[type='button'].button-primary {
   color: #fff;
-  background-color: rgb(86 219 211);
-  border-color: rgb(86 219 211);
+  background-color: #56dbd3;
+  border-color: #56dbd3;
 }
 .button.button-primary:hover,
 button.button-primary:hover,

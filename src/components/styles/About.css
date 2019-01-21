@@ -19,7 +19,7 @@
 
 .image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  border: 2px solid rgb(86 219 211);
+  border: 2px solid #56dbd3;
 }
 
 .text-container {
@@ -37,7 +37,7 @@
 }
 .text-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  border: 2px solid rgb(86 219 211);
+  border: 2px solid #56dbd3;
 }
 
 #profile {
