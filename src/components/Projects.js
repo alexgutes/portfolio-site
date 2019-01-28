@@ -9,7 +9,7 @@ import truckdSS from '../images/truckd-screenshot.png'
 
 export default function Projects() {
   return (
-    <div classnName="project-outer-container">
+    <div className="project-outer-container">
       <h3 className="sub-heading section-heading">Projects</h3>
       <div className="project-flex-container">
         <ProjectItem
@@ -24,7 +24,7 @@ export default function Projects() {
         />
         <ProjectItem
           title="Wack Overflow"
-          description='"Wack Overflow is a clone of the popular programming community Stack Overflow where users can post questions and answers to any programming related issues"'
+          description="Wack Overflow is a clone of the popular programming community Stack Overflow where users can post questions and answers to any programming related issues"
           skills={['React', 'Redux', 'Node', 'Express', 'MongoDB']}
           src={icon}
           liveLink="https://wackoverflow.herokuapp.com/"

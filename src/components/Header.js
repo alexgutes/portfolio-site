@@ -8,7 +8,7 @@ export default function Header() {
         <h1>Alex Gutierrez</h1>
       </li>
       <li className="flex-right">
-        <h1>Full Stack Web Developer</h1>
+        <h1>Full Stack Developer</h1>
       </li>
     </ul>
   )
