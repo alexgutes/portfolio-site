@@ -4,6 +4,8 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: no-wrap;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 /*
 TODO: add breakpoint for mobile, flex-wrap: wrap

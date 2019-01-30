@@ -1,3 +1,8 @@
+.skills-section {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
 .flex-list-skills {
   display: flex;
   list-style: none;

@@ -14,7 +14,8 @@ export default function About() {
           to learn and adapt to new technologies quickly.
         </p>
         <p>
-          Outside of development, I enjoy cooking, watching sports and listening to music. 
+          Outside of development, I enjoy cooking, watching sports and listening
+          to music.
         </p>
       </div>
     </div>
